@@ -1,0 +1,161 @@
+# target: COS87259_R003_noSED
+# config file: MIRI_NIRCam_result/run005/COS87259_R003_noSED.lyric
+# fitting mode: images - photometry
+# fiting method: optimizer
+# chisq: 53508.66015625
+# reduced chisq: 0.6136525273323059
+# BIC: 53918.1953125
+# fitting time: 0.41075814167658486 mins
+############# data summary ############## 
+# image atals: jwst_miri
+#    image number: 0  band: miri_f560w  chisq: [2109.4692]  dof: [4160.]  reduced chisq: [0.50708395]
+#    image number: 1  band: miri_f770w  chisq: [2036.9923]  dof: [4155.]  reduced chisq: [0.49025086]
+#    image number: 2  band: miri_f1000w  chisq: [1925.221]  dof: [4156.]  reduced chisq: [0.46323892]
+#    image number: 3  band: miri_f1130w  chisq: [1802.4465]  dof: [4160.]  reduced chisq: [0.4332804]
+#    image number: 4  band: miri_f1280w  chisq: [1906.1448]  dof: [4158.]  reduced chisq: [0.45842826]
+#    image number: 5  band: miri_f1500w  chisq: [1742.1992]  dof: [4149.]  reduced chisq: [0.41990823]
+#    image number: 6  band: miri_f1800w  chisq: [2325.7827]  dof: [4149.]  reduced chisq: [0.56056464]
+#    image number: 7  band: miri_f2100w  chisq: [2191.528]  dof: [4147.]  reduced chisq: [0.5284611]
+#    image number: 8  band: miri_f2550w  chisq: [4158.0693]  dof: [4160.]  reduced chisq: [0.9995359]
+# image atals: jwst_nircam
+#    image number: 0  band: nircam_f115w  chisq: [9316.674]  dof: [16867.]  reduced chisq: [0.5523611]
+#    image number: 1  band: nircam_f200w  chisq: [11387.775]  dof: [16658.]  reduced chisq: [0.683622]
+#    image number: 2  band: nircam_f410m  chisq: [12606.353]  dof: [16314.]  reduced chisq: [0.77273214]
+############ fitting summary ############ 
+# num_steps: 3000  learning_rate: 0.001 calculate_hessian: False 
+# free parameters:
+pname    best_value
+logNorm_bulge_miri_f560w    -9.0723
+logNorm_bulge_miri_f770w    -8.7995
+logNorm_bulge_miri_f1000w    -8.5594
+logNorm_bulge_miri_f1130w    -8.4873
+logNorm_bulge_miri_f1280w    -8.2560
+logNorm_bulge_miri_f1500w    -7.9444
+logNorm_bulge_miri_f1800w    -7.6191
+logNorm_bulge_miri_f2100w    -7.3318
+logNorm_bulge_miri_f2550w    -7.0222
+logNorm_bulge_nircam_f115w    -9.8232
+logNorm_bulge_nircam_f200w    -8.9902
+logNorm_bulge_nircam_f410m    -8.0700
+bulge_xcen    0.0448
+bulge_ycen    0.1390
+bulge_Re    0.2051
+bulge_n    2.7713
+bulge_ang    47.5885
+bulge_axrat    0.7091
+logNorm_disk_miri_f560w    -9.0723
+logNorm_disk_miri_f770w    -8.7995
+logNorm_disk_miri_f1000w    -8.5594
+logNorm_disk_miri_f1130w    -8.4873
+logNorm_disk_miri_f1280w    -8.2560
+logNorm_disk_miri_f1500w    -7.9444
+logNorm_disk_miri_f1800w    -7.6191
+logNorm_disk_miri_f2100w    -7.3318
+logNorm_disk_miri_f2550w    -7.0222
+logNorm_disk_nircam_f115w    -9.8232
+logNorm_disk_nircam_f200w    -8.9902
+logNorm_disk_nircam_f410m    -8.0700
+disk_xcen    0.0448
+disk_ycen    0.1390
+disk_Re    0.2051
+disk_n    2.7713
+disk_ang    47.5885
+disk_axrat    0.7091
+# fixed parameters:
+# pname    fixed_value
+csx_miri_f560w    0.0000
+csy_miri_f560w    0.0000
+sky_miri_f560w    0.0000
+csx_miri_f770w    0.0000
+csy_miri_f770w    0.0000
+sky_miri_f770w    0.0000
+csx_miri_f1000w    0.0000
+csy_miri_f1000w    0.0000
+sky_miri_f1000w    0.0000
+csx_miri_f1130w    0.0000
+csy_miri_f1130w    0.0000
+sky_miri_f1130w    0.0000
+csx_miri_f1280w    0.0000
+csy_miri_f1280w    0.0000
+sky_miri_f1280w    0.0000
+csx_miri_f1500w    0.0000
+csy_miri_f1500w    0.0000
+sky_miri_f1500w    0.0000
+csx_miri_f1800w    0.0000
+csy_miri_f1800w    0.0000
+sky_miri_f1800w    0.0000
+csx_miri_f2100w    0.0000
+csy_miri_f2100w    0.0000
+sky_miri_f2100w    0.0000
+csx_miri_f2550w    0.0000
+csy_miri_f2550w    0.0000
+sky_miri_f2550w    0.0000
+csx_nircam_f115w    0.0000
+csy_nircam_f115w    0.0000
+sky_nircam_f115w    0.0000
+csx_nircam_f200w    0.0000
+csy_nircam_f200w    0.0000
+sky_nircam_f200w    0.0000
+csx_nircam_f410m    0.0000
+csy_nircam_f410m    0.0000
+sky_nircam_f410m    0.0000
+bulge_f_cont_value    -2.0000
+bulge_age_value    0.5000
+bulge_Z_value    0.0200
+bulge_Av_value    0.3000
+bulge_sigma    100.0000
+logM_bulge    10.0000
+logU_bulge    -2.0000
+AVbump_bulge    3.0000
+logMdust_bulge    8.1400
+Umin_bulge    1.0000
+qPAH_bulge    1.0000
+alphad_bulge    1.0000
+gammad_bulge    0.1000
+Mag_bulge_miri_f560w    -2.3193
+Mag_bulge_miri_f770w    -3.0012
+Mag_bulge_miri_f1000w    -3.6015
+Mag_bulge_miri_f1130w    -3.7819
+Mag_bulge_miri_f1280w    -4.3599
+Mag_bulge_miri_f1500w    -5.1389
+Mag_bulge_miri_f1800w    -5.9523
+Mag_bulge_miri_f2100w    -6.6706
+Mag_bulge_miri_f2550w    -7.4444
+Mag_bulge_nircam_f115w    -0.4419
+Mag_bulge_nircam_f200w    -2.5245
+Mag_bulge_nircam_f410m    -4.8249
+disk_f_cont_value    -2.0000
+disk_age_value    0.5000
+disk_Z_value    0.0200
+disk_Av_value    0.3000
+disk_sigma    100.0000
+logM_disk    10.0000
+logU_disk    -2.0000
+AVbump_disk    3.0000
+logMdust_disk    8.1400
+Umin_disk    1.0000
+qPAH_disk    1.0000
+alphad_disk    1.0000
+gammad_disk    0.1000
+Mag_disk_miri_f560w    -2.3193
+Mag_disk_miri_f770w    -3.0012
+Mag_disk_miri_f1000w    -3.6015
+Mag_disk_miri_f1130w    -3.7819
+Mag_disk_miri_f1280w    -4.3599
+Mag_disk_miri_f1500w    -5.1389
+Mag_disk_miri_f1800w    -5.9523
+Mag_disk_miri_f2100w    -6.6706
+Mag_disk_miri_f2550w    -7.4444
+Mag_disk_nircam_f115w    -0.4419
+Mag_disk_nircam_f200w    -2.5245
+Mag_disk_nircam_f410m    -4.8249
+z_host_galaxy    6.8300
+scale_host_galaxy    5.4256
+r0_host_galaxy    0.0000
+rt_host_galaxy    3.0000
+v0_host_galaxy    150.0000
+vc_host_galaxy    0.0000
+LineSigma_host_galaxy    50.0000
+logsfr_bulge    0.0000
+logsfr_disk    0.0000
+######################################### 

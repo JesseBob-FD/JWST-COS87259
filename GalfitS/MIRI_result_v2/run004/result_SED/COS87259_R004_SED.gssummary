@@ -1,0 +1,68 @@
+# target: COS87259_R004_SED
+# config file: COS87259_R004.lyric
+# fitting mode: images - SED
+# fiting method: optimizer
+# chisq: 83673.7109375
+# reduced chisq: 0.5154162645339966
+# BIC: 83817.6796875
+# fitting time: 0.5347932378451029 mins
+############# data summary ############## 
+# image atals: jwst_miri
+#    image number: 0  band: miri_f770w  chisq: [12783.461]  dof: [27060.]  reduced chisq: [0.47241172]
+#    image number: 1  band: miri_f1000w  chisq: [13173.029]  dof: [27059.]  reduced chisq: [0.48682618]
+#    image number: 2  band: miri_f1280w  chisq: [13097.122]  dof: [27060.]  reduced chisq: [0.48400304]
+#    image number: 3  band: miri_f1500w  chisq: [12620.735]  dof: [27059.]  reduced chisq: [0.46641544]
+#    image number: 4  band: miri_f1800w  chisq: [15225.783]  dof: [27060.]  reduced chisq: [0.56266755]
+#    image number: 5  band: miri_f2100w  chisq: [16773.594]  dof: [27056.]  reduced chisq: [0.6199584]
+############ fitting summary ############ 
+# num_steps: 500  learning_rate: 0.001 calculate_hessian: False 
+# free parameters:
+pname    best_value
+sky_miri_f770w    -0.0006
+sky_miri_f1000w    0.0067
+sky_miri_f1280w    0.0052
+sky_miri_f1500w    0.0094
+sky_miri_f1800w    0.0072
+sky_miri_f2100w    0.0110
+host_xcen    0.0172
+host_ycen    0.0824
+host_Re    0.1125
+host_n    1.5493
+host_ang    18.7517
+host_axrat    0.5174
+# fixed parameters:
+# pname    fixed_value
+csx_miri_f770w    0.0000
+csy_miri_f770w    0.0000
+csx_miri_f1000w    0.0000
+csy_miri_f1000w    0.0000
+csx_miri_f1280w    0.0000
+csy_miri_f1280w    0.0000
+csx_miri_f1500w    0.0000
+csy_miri_f1500w    0.0000
+csx_miri_f1800w    0.0000
+csy_miri_f1800w    0.0000
+csx_miri_f2100w    0.0000
+csy_miri_f2100w    0.0000
+host_f_cont_value    -2.0000
+host_age_value    0.5000
+host_Z_value    0.0200
+host_Av_value    0.3000
+host_sigma    100.0000
+logM_host    10.0000
+logU_host    -2.0000
+AVbump_host    3.0000
+logMdust_host    8.1400
+Umin_host    1.0000
+qPAH_host    1.0000
+alphad_host    1.0000
+gammad_host    0.1000
+z_host_galaxy    6.8300
+scale_host_galaxy    5.4256
+r0_host_galaxy    0.0000
+rt_host_galaxy    3.0000
+v0_host_galaxy    150.0000
+vc_host_galaxy    0.0000
+LineSigma_host_galaxy    50.0000
+logsfr_host    0.0000
+######################################### 

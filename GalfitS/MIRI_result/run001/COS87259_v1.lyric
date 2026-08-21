@@ -1,0 +1,180 @@
+# COS87259.lyric - JWST MIRI 6-band Galaxy Decomposition
+# Target: COS-87259 at z ~ 6.83
+# Science: Structural decomposition of suspected AGN host galaxy
+# Bands used: F770W, F1000W, F1280W, F1500W, F1800W, F2100W
+# (F560W, F1130W, F2550W excluded due to missing filter curves in GalfitS)
+
+# ============================================================
+# Region information
+# ============================================================
+R1) COS87259                                     # Target name (used for output file prefix)
+R2) [149.7406185,1.6496037]                      # Sky coordinates [RA, Dec] in degrees
+R3) 6.83                                          # Redshift
+
+# ============================================================
+# Image A - F770W
+# ============================================================
+Ia1) [cos87259_F770W_cut.fits,0]                  # Science image (ext 0)
+Ia2) miri_f770w                                   # Band name (must match filter file)
+Ia3) [cos87259_F770W_cut.fits,2]                  # Sigma image (ext 2 = ERR)
+Ia4) [cos87259_F770W_psf.fits,0]                  # PSF image
+Ia5) 1                                            # PSF oversampling factor
+Ia6) [cos87259_F770W_cut.fits,1]                  # Bad pixel mask (ext 1)
+Ia7) MJy/sr                                       # Image unit (informational)
+Ia8) 5.0                                          # Cutout half-size [arcsec]
+Ia9) 2.3141492028087479e+21                       # Conversion: erg/s/cm^2/A -> MJy/sr
+Ia10) 0                                           # Magnitude zeropoint (unused when Ia15=1)
+Ia11) uniform                                     # Sky model
+Ia12) [[0,-0.5,0.5,0.1,0]]                        # Sky: [val,min,max,step,vary] (fixed to 0)
+Ia13) 0                                           # No relative shifting (same instrument)
+Ia14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]             # Shift params (fixed)
+Ia15) 1                                           # Use SED fitting
+
+# ============================================================
+# Image B - F1000W
+# ============================================================
+Ib1) [cos87259_F1000W_cut.fits,0]
+Ib2) miri_f1000w
+Ib3) [cos87259_F1000W_cut.fits,2]
+Ib4) [cos87259_F1000W_psf.fits,0]
+Ib5) 1
+Ib6) [cos87259_F1000W_cut.fits,1]
+Ib7) MJy/sr
+Ib8) 5.0
+Ib9) 3.9005e+21
+Ib10) 0
+Ib11) uniform
+Ib12) [[0,-0.5,0.5,0.1,0]]
+Ib13) 0
+Ib14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ib15) 1
+
+# ============================================================
+# Image C - F1280W
+# ============================================================
+Ic1) [cos87259_F1280W_cut.fits,0]
+Ic2) miri_f1280w
+Ic3) [cos87259_F1280W_cut.fits,2]
+Ic4) [cos87259_F1280W_psf.fits,0]
+Ic5) 1
+Ic6) [cos87259_F1280W_cut.fits,1]
+Ic7) MJy/sr
+Ic8) 5.0
+Ic9) 6.4690e+21
+Ic10) 0
+Ic11) uniform
+Ic12) [[0,-0.5,0.5,0.1,0]]
+Ic13) 0
+Ic14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ic15) 1
+
+# ============================================================
+# Image D - F1500W
+# ============================================================
+Id1) [cos87259_F1500W_cut.fits,0]
+Id2) miri_f1500w
+Id3) [cos87259_F1500W_cut.fits,2]
+Id4) [cos87259_F1500W_psf.fits,0]
+Id5) 1
+Id6) [cos87259_F1500W_cut.fits,1]
+Id7) MJy/sr
+Id8) 5.0
+Id9) 8.9268e+21
+Id10) 0
+Id11) uniform
+Id12) [[0,-0.5,0.5,0.1,0]]
+Id13) 0
+Id14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Id15) 1
+
+# ============================================================
+# Image E - F1800W
+# ============================================================
+Ie1) [cos87259_F1800W_cut.fits,0]
+Ie2) miri_f1800w
+Ie3) [cos87259_F1800W_cut.fits,2]
+Ie4) [cos87259_F1800W_psf.fits,0]
+Ie5) 1
+Ie6) [cos87259_F1800W_cut.fits,1]
+Ie7) MJy/sr
+Ie8) 5.0
+Ie9) 1.2729e+22
+Ie10) 0
+Ie11) uniform
+Ie12) [[0,-0.5,0.5,0.1,0]]
+Ie13) 0
+Ie14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ie15) 1
+
+# ============================================================
+# Image F - F2100W
+# ============================================================
+If1) [cos87259_F2100W_cut.fits,0]
+If2) miri_f2100w
+If3) [cos87259_F2100W_cut.fits,2]
+If4) [cos87259_F2100W_psf.fits,0]
+If5) 1
+If6) [cos87259_F2100W_cut.fits,1]
+If7) MJy/sr
+If8) 5.0
+If9) 1.7047e+22
+If10) 0
+If11) uniform
+If12) [[0,-0.5,0.5,0.1,0]]
+If13) 0
+If14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+If15) 1
+
+# ============================================================
+# Image Atlas (all MIRI bands in one group, same pixel scale)
+# ============================================================
+Aa1) jwst_miri                                    # Atlas name
+Aa2) ['a','b','c','d','e','f']                    # Images in this atlas
+Aa3) 1                                            # Same pixel size (60 mas for all MIRI)
+Aa4) 0                                            # Do not link relative shifts
+Aa5) []                                           # No spectra
+Aa6) []                                           # No aperture
+Aa7) []                                           # No reference image
+
+# ============================================================
+# Model: Host Galaxy (Single Sersic)
+# ============================================================
+# At z=6.83, the universe age is ~0.8 Gyr.
+# MIRI probes rest-frame 0.7-3.3 um, tracing old/low-mass stellar
+# population and hot dust. The rising SED toward longer wavelengths
+# suggests either dust-obscured star formation or AGN contribution.
+# Initial model: single Sersic host with burst SFH.
+
+# Profile A - Host galaxy
+Pa1) host                                         # Component name
+Pa2) sersic                                       # Profile type
+Pa3) [0, -1.5, 1.5, 0.01, 1]                     # x-center [arcsec]
+Pa4) [0, -1.5, 1.5, 0.01, 1]                     # y-center [arcsec]
+Pa5) [0.15, 0.02, 1.0, 0.01, 1]                  # Re [arcsec] (~1 kpc at z=6.83)
+Pa6) [2.0, 0.3, 8.0, 0.1, 1]                     # Sersic index
+Pa7) [0, -90, 90, 1, 1]                          # Position angle [deg]
+Pa8) [0.6, 0.1, 1.0, 0.01, 1]                    # Axis ratio (b/a)
+Pa9)  [[-2,-8,0,0.1,1]]                          # log sSFR (star-forming regime)
+Pa10) [[0.08,0.001,0.85,0.01,1]]                 # Burst age [Gyr] (universe ~0.8 Gyr)
+Pa11) [[0.005,0.0001,0.04,0.001,1]]              # Metallicity (low at high-z)
+Pa12) [[0.3,0,5.1,0.1,1]]                        # Av dust extinction [mag]
+Pa13) [50,10,200,1,0]                            # Velocity dispersion [km/s] (fixed)
+Pa14) [9.0,6.0,12.0,0.1,1]                       # log stellar mass [Msun]
+Pa15) burst                                       # SFH type
+Pa16) [-2,-4,-2,0.1,0]                            # logU ionization parameter (fixed)
+Pa26) [3,0,5,0.1,0]                              # 2175A bump amplitude (fixed)
+Pa27) 0                                          # SED model (0=stellar+nebular+dust)
+Pa28) [8.14,4.5,10,0.1,0]                        # log dust mass (fixed)
+Pa29) [1.0, 0.1, 50, 0.1, 0]                     # Umin (fixed)
+Pa30) [1.0, 0.47, 7.32, 0.1, 0]                  # qPAH (fixed)
+Pa31) [1.0, 1.0, 3.0, 0.1, 0]                    # alpha (fixed)
+Pa32) [0.1, 0, 1.0, 0.1, 0]                      # gamma (fixed)
+
+# Galaxy A
+Ga1) host_galaxy                                  # Galaxy name
+Ga2) ['a']                                        # Profiles: host only
+Ga3) [6.83, 5.0, 8.0, 0.01, 0]                   # Redshift (fixed to literature)
+Ga4) 0.0217                                       # Galactic EB-V toward COS-87259 (from SFD)
+Ga5) [1.,0.5,2,0.05,0]                           # Spectrum normalization (unused)
+Ga6) []                                           # No narrow lines
+Ga7) 1                                            # Components for narrow lines

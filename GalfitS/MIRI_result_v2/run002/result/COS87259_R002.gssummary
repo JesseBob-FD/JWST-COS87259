@@ -1,0 +1,97 @@
+# target: COS87259_R002
+# config file: COS87259_R002.lyric
+# fitting mode: images - photometry
+# fiting method: optimizer
+# chisq: 72944.25
+# reduced chisq: 0.44934117794036865
+# BIC: 73160.203125
+# fitting time: 1.572463087240855 mins
+############# data summary ############## 
+# image atals: jwst_miri
+#    image number: 0  band: miri_f770w  chisq: [12091.951]  dof: [27060.]  reduced chisq: [0.44685704]
+#    image number: 1  band: miri_f1000w  chisq: [12502.106]  dof: [27059.]  reduced chisq: [0.46203136]
+#    image number: 2  band: miri_f1280w  chisq: [12145.658]  dof: [27060.]  reduced chisq: [0.44884178]
+#    image number: 3  band: miri_f1500w  chisq: [11004.189]  dof: [27059.]  reduced chisq: [0.4066739]
+#    image number: 4  band: miri_f1800w  chisq: [12328.738]  dof: [27060.]  reduced chisq: [0.45560747]
+#    image number: 5  band: miri_f2100w  chisq: [12871.608]  dof: [27056.]  reduced chisq: [0.4757395]
+############ fitting summary ############ 
+# num_steps: 3000  learning_rate: 0.001 calculate_hessian: False 
+# free parameters:
+pname    best_value
+Ni_AGN_jwst_miri    1.0000
+logNorm_host_miri_f770w    -8.9982
+logNorm_host_miri_f1000w    -8.3814
+logNorm_host_miri_f1280w    -8.0136
+logNorm_host_miri_f1500w    -7.6729
+logNorm_host_miri_f1800w    -7.3173
+logNorm_host_miri_f2100w    -7.0574
+host_xcen    -0.0296
+host_ycen    0.0654
+host_Re    0.2093
+host_n    1.1359
+host_ang    62.3289
+host_axrat    0.7322
+xcen_AGN    0.1015
+ycen_AGN    0.0833
+agn_AvAGN    0.1903
+AGNlogL5100    45.5553
+AGNplC    0.6338
+# fixed parameters:
+# pname    fixed_value
+csx_miri_f770w    0.0000
+csy_miri_f770w    0.0000
+sky_miri_f770w    0.0000
+csx_miri_f1000w    0.0000
+csy_miri_f1000w    0.0000
+sky_miri_f1000w    0.0000
+csx_miri_f1280w    0.0000
+csy_miri_f1280w    0.0000
+sky_miri_f1280w    0.0000
+csx_miri_f1500w    0.0000
+csy_miri_f1500w    0.0000
+sky_miri_f1500w    0.0000
+csx_miri_f1800w    0.0000
+csy_miri_f1800w    0.0000
+sky_miri_f1800w    0.0000
+csx_miri_f2100w    0.0000
+csy_miri_f2100w    0.0000
+sky_miri_f2100w    0.0000
+host_f_cont_value    -2.0000
+host_age_value    0.5000
+host_Z_value    0.0200
+host_Av_value    0.3000
+host_sigma    100.0000
+logM_host    10.0000
+logU_host    -2.0000
+AVbump_host    3.0000
+logMdust_host    8.1400
+Umin_host    1.0000
+qPAH_host    1.0000
+alphad_host    1.0000
+gammad_host    0.1000
+Mag_host_miri_f770w    -2.5044
+Mag_host_miri_f1000w    -4.0464
+Mag_host_miri_f1280w    -4.9660
+Mag_host_miri_f1500w    -5.8178
+Mag_host_miri_f1800w    -6.7067
+Mag_host_miri_f2100w    -7.3565
+agn_logMAGN    8.0000
+agn_logLeddAGN    -1.0000
+agn_spinAGN    0.0000
+z_AGN    6.8300
+AGNtorus_logL    41.0000
+AGNtorus_a    -0.5000
+AGNtorus_h    0.5000
+AGNtorus_N0    7.0000
+AGNtorus_i    15.0000
+AGNLhotdust    40.0000
+AGNThotdust    40.0000
+z_host_galaxy    6.8300
+scale_host_galaxy    5.4256
+r0_host_galaxy    0.0000
+rt_host_galaxy    3.0000
+v0_host_galaxy    150.0000
+vc_host_galaxy    0.0000
+LineSigma_host_galaxy    50.0000
+logsfr_host    0.0000
+######################################### 

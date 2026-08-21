@@ -1,0 +1,85 @@
+# target: COS87259_R002_SED
+# config file: COS87259_R002.lyric
+# fitting mode: images - SED
+# fiting method: optimizer
+# chisq: 74685.515625
+# reduced chisq: 0.460050493478775
+# BIC: 74829.484375
+# fitting time: 1.8787371238072714 mins
+############# data summary ############## 
+# image atals: jwst_miri
+#    image number: 0  band: miri_f770w  chisq: [12129.722]  dof: [27060.]  reduced chisq: [0.44825283]
+#    image number: 1  band: miri_f1000w  chisq: [12772.269]  dof: [27059.]  reduced chisq: [0.47201553]
+#    image number: 2  band: miri_f1280w  chisq: [12508.676]  dof: [27060.]  reduced chisq: [0.46225706]
+#    image number: 3  band: miri_f1500w  chisq: [11135.693]  dof: [27059.]  reduced chisq: [0.4115338]
+#    image number: 4  band: miri_f1800w  chisq: [12530.512]  dof: [27060.]  reduced chisq: [0.463064]
+#    image number: 5  band: miri_f2100w  chisq: [13608.651]  dof: [27056.]  reduced chisq: [0.5029809]
+############ fitting summary ############ 
+# num_steps: 3000  learning_rate: 0.001 calculate_hessian: False 
+# free parameters:
+pname    best_value
+Ni_AGN_jwst_miri    1.0000
+host_xcen    0.3317
+host_ycen    0.2182
+host_Re    0.1101
+host_n    1.4177
+host_ang    -26.7639
+host_axrat    0.4130
+xcen_AGN    -0.0213
+ycen_AGN    0.0632
+agn_AvAGN    2.8587
+AGNlogL5100    44.9143
+AGNplC    0.1678
+# fixed parameters:
+# pname    fixed_value
+csx_miri_f770w    0.0000
+csy_miri_f770w    0.0000
+sky_miri_f770w    0.0000
+csx_miri_f1000w    0.0000
+csy_miri_f1000w    0.0000
+sky_miri_f1000w    0.0000
+csx_miri_f1280w    0.0000
+csy_miri_f1280w    0.0000
+sky_miri_f1280w    0.0000
+csx_miri_f1500w    0.0000
+csy_miri_f1500w    0.0000
+sky_miri_f1500w    0.0000
+csx_miri_f1800w    0.0000
+csy_miri_f1800w    0.0000
+sky_miri_f1800w    0.0000
+csx_miri_f2100w    0.0000
+csy_miri_f2100w    0.0000
+sky_miri_f2100w    0.0000
+host_f_cont_value    -2.0000
+host_age_value    0.5000
+host_Z_value    0.0200
+host_Av_value    0.3000
+host_sigma    100.0000
+logM_host    10.0000
+logU_host    -2.0000
+AVbump_host    3.0000
+logMdust_host    8.1400
+Umin_host    1.0000
+qPAH_host    1.0000
+alphad_host    1.0000
+gammad_host    0.1000
+agn_logMAGN    8.0000
+agn_logLeddAGN    -1.0000
+agn_spinAGN    0.0000
+z_AGN    6.8300
+AGNtorus_logL    41.0000
+AGNtorus_a    -0.5000
+AGNtorus_h    0.5000
+AGNtorus_N0    7.0000
+AGNtorus_i    15.0000
+AGNLhotdust    40.0000
+AGNThotdust    40.0000
+z_host_galaxy    6.8300
+scale_host_galaxy    5.4256
+r0_host_galaxy    0.0000
+rt_host_galaxy    3.0000
+v0_host_galaxy    150.0000
+vc_host_galaxy    0.0000
+LineSigma_host_galaxy    50.0000
+logsfr_host    0.0000
+######################################### 

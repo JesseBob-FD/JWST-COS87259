@@ -1,0 +1,175 @@
+# target: host_dualAGN_C1C2_noSED
+# config file: /mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_NIRCam_result/host_dualAGN_C1C2/noSED/host_dualAGN_C1C2_noSED.lyric
+# fitting mode: images - photometry
+# fiting method: optimizer
+# chisq: 47341.375
+# reduced chisq: 0.543073832988739
+# BIC: 48023.9140625
+# fitting time: 0.5911835471789042 mins
+############# data summary ############## 
+# image atals: jwst_miri
+#    image number: 0  band: miri_f560w  chisq: [1780.6733]  dof: [4160.]  reduced chisq: [0.42804646]
+#    image number: 1  band: miri_f770w  chisq: [1824.5361]  dof: [4155.]  reduced chisq: [0.4391182]
+#    image number: 2  band: miri_f1000w  chisq: [1819.4529]  dof: [4156.]  reduced chisq: [0.43778944]
+#    image number: 3  band: miri_f1130w  chisq: [1744.3444]  dof: [4160.]  reduced chisq: [0.41931355]
+#    image number: 4  band: miri_f1280w  chisq: [1865.7715]  dof: [4158.]  reduced chisq: [0.4487185]
+#    image number: 5  band: miri_f1500w  chisq: [1684.5752]  dof: [4149.]  reduced chisq: [0.40601957]
+#    image number: 6  band: miri_f1800w  chisq: [2242.8564]  dof: [4149.]  reduced chisq: [0.5405776]
+#    image number: 7  band: miri_f2100w  chisq: [2056.207]  dof: [4147.]  reduced chisq: [0.49583]
+#    image number: 8  band: miri_f2550w  chisq: [4065.0842]  dof: [4160.]  reduced chisq: [0.9771837]
+# image atals: jwst_nircam
+#    image number: 0  band: nircam_f115w  chisq: [10208.578]  dof: [16867.]  reduced chisq: [0.6052397]
+#    image number: 1  band: nircam_f200w  chisq: [9362.495]  dof: [16658.]  reduced chisq: [0.562042]
+#    image number: 2  band: nircam_f410m  chisq: [8686.801]  dof: [16314.]  reduced chisq: [0.53247523]
+############ fitting summary ############ 
+# num_steps: 3000  learning_rate: 0.001 calculate_hessian: False 
+# free parameters:
+pname    best_value
+Ni_AGN_C1_jwst_miri    1.0000
+Ni_AGN_C2_jwst_miri    1.0000
+Ni_AGN_C1_jwst_nircam    1.0000
+Ni_AGN_C2_jwst_nircam    1.0000
+logNorm_host_miri_f560w    -8.3629
+logNorm_host_miri_f770w    -8.1780
+logNorm_host_miri_f1000w    -7.9940
+logNorm_host_miri_f1130w    -7.9245
+logNorm_host_miri_f1280w    -7.9134
+logNorm_host_miri_f1500w    -7.6409
+logNorm_host_miri_f1800w    -7.5595
+logNorm_host_miri_f2100w    -7.5204
+logNorm_host_miri_f2550w    -6.9865
+logNorm_host_nircam_f115w    -8.8831
+logNorm_host_nircam_f200w    -8.3315
+logNorm_host_nircam_f410m    -7.5708
+host_xcen    0.1006
+host_ycen    0.0985
+host_Re    0.6408
+host_n    2.0752
+host_ang    42.0274
+host_axrat    0.8729
+xcen_AGN_C1    0.1540
+ycen_AGN_C1    0.1071
+agn_logMAGN_C1    7.0000
+agn_logLeddAGN_C1    -1.0000
+agn_spinAGN_C1    0.4950
+agn_AvAGN_C1    1.5500
+AGN_C1logL5100    43.0000
+AGN_C1_miri_f560w_logL    38.0798
+AGN_C1_miri_f770w_logL    37.9440
+AGN_C1_miri_f1000w_logL    38.0107
+AGN_C1_miri_f1130w_logL    37.9038
+AGN_C1_miri_f1280w_logL    39.2092
+AGN_C1_miri_f1500w_logL    38.7778
+AGN_C1_miri_f1800w_logL    39.9775
+AGN_C1_miri_f2100w_logL    40.1731
+AGN_C1_miri_f2550w_logL    39.1451
+AGN_C1_nircam_f115w_logL    39.0996
+AGN_C1_nircam_f200w_logL    38.8709
+AGN_C1_nircam_f410m_logL    39.1832
+xcen_AGN_C2    -0.1005
+ycen_AGN_C2    0.1508
+agn_logMAGN_C2    7.0000
+agn_logLeddAGN_C2    -1.0000
+agn_spinAGN_C2    0.4950
+agn_AvAGN_C2    1.5500
+AGN_C2logL5100    43.0000
+AGN_C2_miri_f560w_logL    38.2741
+AGN_C2_miri_f770w_logL    38.4873
+AGN_C2_miri_f1000w_logL    38.8950
+AGN_C2_miri_f1130w_logL    38.9737
+AGN_C2_miri_f1280w_logL    39.4185
+AGN_C2_miri_f1500w_logL    39.9513
+AGN_C2_miri_f1800w_logL    40.2589
+AGN_C2_miri_f2100w_logL    40.6850
+AGN_C2_miri_f2550w_logL    41.0307
+AGN_C2_nircam_f115w_logL    38.0473
+AGN_C2_nircam_f200w_logL    38.0832
+AGN_C2_nircam_f410m_logL    39.8631
+# fixed parameters:
+# pname    fixed_value
+csx_miri_f560w    0.0000
+csy_miri_f560w    0.0000
+sky_miri_f560w    0.0000
+csx_miri_f770w    0.0000
+csy_miri_f770w    0.0000
+sky_miri_f770w    0.0000
+csx_miri_f1000w    0.0000
+csy_miri_f1000w    0.0000
+sky_miri_f1000w    0.0000
+csx_miri_f1130w    0.0000
+csy_miri_f1130w    0.0000
+sky_miri_f1130w    0.0000
+csx_miri_f1280w    0.0000
+csy_miri_f1280w    0.0000
+sky_miri_f1280w    0.0000
+csx_miri_f1500w    0.0000
+csy_miri_f1500w    0.0000
+sky_miri_f1500w    0.0000
+csx_miri_f1800w    0.0000
+csy_miri_f1800w    0.0000
+sky_miri_f1800w    0.0000
+csx_miri_f2100w    0.0000
+csy_miri_f2100w    0.0000
+sky_miri_f2100w    0.0000
+csx_miri_f2550w    0.0000
+csy_miri_f2550w    0.0000
+sky_miri_f2550w    0.0000
+csx_nircam_f115w    0.0000
+csy_nircam_f115w    0.0000
+sky_nircam_f115w    0.0000
+csx_nircam_f200w    0.0000
+csy_nircam_f200w    0.0000
+sky_nircam_f200w    0.0000
+csx_nircam_f410m    0.0000
+csy_nircam_f410m    0.0000
+sky_nircam_f410m    0.0000
+host_f_cont_value    -2.0000
+host_age_value    0.5000
+host_Z_value    0.0200
+host_Av_value    0.3000
+host_sigma    100.0000
+logM_host    10.0000
+logU_host    -2.0000
+AVbump_host    3.0000
+logMdust_host    8.1400
+Umin_host    1.0000
+qPAH_host    1.0000
+alphad_host    1.0000
+gammad_host    0.1000
+Mag_host_miri_f560w    -4.0927
+Mag_host_miri_f770w    -4.5550
+Mag_host_miri_f1000w    -5.0149
+Mag_host_miri_f1130w    -5.1888
+Mag_host_miri_f1280w    -5.2164
+Mag_host_miri_f1500w    -5.8978
+Mag_host_miri_f1800w    -6.1012
+Mag_host_miri_f2100w    -6.1989
+Mag_host_miri_f2550w    -7.5337
+Mag_host_nircam_f115w    -2.7922
+Mag_host_nircam_f200w    -4.1712
+Mag_host_nircam_f410m    -6.0731
+z_AGN_C1    6.8300
+AGN_C1torus_logL    41.0000
+AGN_C1torus_a    -0.5000
+AGN_C1torus_h    0.5000
+AGN_C1torus_N0    7.0000
+AGN_C1torus_i    15.0000
+AGN_C1Lhotdust    40.0000
+AGN_C1Thotdust    40.0000
+z_AGN_C2    6.8300
+AGN_C2torus_logL    41.0000
+AGN_C2torus_a    -0.5000
+AGN_C2torus_h    0.5000
+AGN_C2torus_N0    7.0000
+AGN_C2torus_i    15.0000
+AGN_C2Lhotdust    40.0000
+AGN_C2Thotdust    40.0000
+z_host_galaxy    6.8300
+scale_host_galaxy    5.4256
+r0_host_galaxy    0.0000
+rt_host_galaxy    3.0000
+v0_host_galaxy    150.0000
+vc_host_galaxy    0.0000
+LineSigma_host_galaxy    50.0000
+logsfr_host    0.0000
+######################################### 

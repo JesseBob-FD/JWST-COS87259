@@ -1,0 +1,70 @@
+diff --git a/requirement.txt b/requirement.txt
+index 174b6d1..8dfcde8 100644
+--- a/requirement.txt
++++ b/requirement.txt
+@@ -15,7 +15,7 @@ lmfit>=1.0.0
+ evosax==0.2.0
+ tqdm>=4.64.0
+ flowmc>=0.4.5
+-jnesty>=0.1.0
++# jnesty>=0.1.0
+ 
+ # JAX dependencies (will be installed from requirements-jax.txt)
+ #jax>=0.8.0  # Use requirements-jax-cuda.txt for GPU support
+diff --git a/src/galfits/galfitS.py b/src/galfits/galfitS.py
+index a7b2149..6036333 100644
+--- a/src/galfits/galfitS.py
++++ b/src/galfits/galfitS.py
+@@ -16,6 +16,15 @@ import jax.numpy as jnp
+ import time
+ from astropy.io import ascii
+ 
++### The following part of code is for fixing Error NO.2: TypeError: Error interpreting argument to stage as a JAX value. The problematic value is of type <class 'numpy.ndarray'> and was passed to stage at position 0.
++import numpy as np
++_old_array = jnp.array
++def _safe_jax_array(object, *args, **kwargs):
++    if isinstance(object, np.ndarray) and object.dtype.byteorder in ('>', 'B'):
++        object = object.byteswap().view(object.dtype.newbyteorder('='))
++    return _old_array(object, *args, **kwargs)
++jnp.array = _safe_jax_array
++###
+ 
+ class _TeeStream:
+         def __init__(self, *streams):
+diff --git a/src/galfits/gsutils.py b/src/galfits/gsutils.py
+index f82e593..9aca161 100644
+--- a/src/galfits/gsutils.py
++++ b/src/galfits/gsutils.py
+@@ -116,7 +116,15 @@ phys_to_image ={
+     'nircam_f360m': 4.3791610308612635e+21,
+     'nircam_f410m': 2.627747889e+21, # 40822.38
+     'nircam_f444w': 3.05874870647e+21, # 44043.15 
+-    'miri_f770w':2.3141492028087479e+21,
++    'miri_f560w': 1.251856e+21,
++    'miri_f770w': 2.3141492028087479e+21,
++    'miri_f1000w': 3.912241e+21,
++    'miri_f1130w': 5.041238e+21,
++    'miri_f1280w': 6.490452e+21,
++    'miri_f1500w': 8.959912e+21,
++    'miri_f1800w': 1.276140e+22,
++    'miri_f2100w': 1.712489e+22,
++    'miri_f2550w': 2.536078e+22,
+     # swift UVOT
+     'swift_u':6.11729639e15,
+     'swift_b':6.925923785e15,
+@@ -235,12 +243,15 @@ effective_wave ={
+     'nircam_f444w': 44043.15,
+     'nircam_f460m': 46305.45,
+     'nircam_f480m': 48152.79,
++    'miri_f560w': 56352.6,
+     'miri_f770w': 76604.7,
+     'miri_f1000w': 99620.625,
++    'miri_f1130w': 113085.0,
+     'miri_f1280w': 128313.970,
+     'miri_f1500w': 150760.77,
+     'miri_f1800w': 179922.53,
+     'miri_f2100w': 208425.266,
++    'miri_f2550w': 253640.0,
+     # HST
+     'acs_f435w':4317.61,
+     'acs_f606w':5809.26,

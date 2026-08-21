@@ -1,0 +1,13 @@
+def Update_Constraints(pardictlc):
+    pardictlc['Mag_bulge_miri_f770w']=0-2.5*pardictlc['logM_bulge']-2.5*pardictlc['logNorm_bulge_miri_f770w']
+    pardictlc['Mag_bulge_miri_f1000w']=0-2.5*pardictlc['logM_bulge']-2.5*pardictlc['logNorm_bulge_miri_f1000w']
+    pardictlc['Mag_bulge_miri_f1280w']=0-2.5*pardictlc['logM_bulge']-2.5*pardictlc['logNorm_bulge_miri_f1280w']
+    pardictlc['Mag_bulge_miri_f1500w']=0-2.5*pardictlc['logM_bulge']-2.5*pardictlc['logNorm_bulge_miri_f1500w']
+    pardictlc['Mag_bulge_miri_f1800w']=0-2.5*pardictlc['logM_bulge']-2.5*pardictlc['logNorm_bulge_miri_f1800w']
+    pardictlc['Mag_bulge_miri_f2100w']=0-2.5*pardictlc['logM_bulge']-2.5*pardictlc['logNorm_bulge_miri_f2100w']
+    pardictlc['Mag_disk_miri_f770w']=0-2.5*pardictlc['logM_disk']-2.5*pardictlc['logNorm_disk_miri_f770w']
+    pardictlc['Mag_disk_miri_f1000w']=0-2.5*pardictlc['logM_disk']-2.5*pardictlc['logNorm_disk_miri_f1000w']
+    pardictlc['Mag_disk_miri_f1280w']=0-2.5*pardictlc['logM_disk']-2.5*pardictlc['logNorm_disk_miri_f1280w']
+    pardictlc['Mag_disk_miri_f1500w']=0-2.5*pardictlc['logM_disk']-2.5*pardictlc['logNorm_disk_miri_f1500w']
+    pardictlc['Mag_disk_miri_f1800w']=0-2.5*pardictlc['logM_disk']-2.5*pardictlc['logNorm_disk_miri_f1800w']
+    pardictlc['Mag_disk_miri_f2100w']=0-2.5*pardictlc['logM_disk']-2.5*pardictlc['logNorm_disk_miri_f2100w']

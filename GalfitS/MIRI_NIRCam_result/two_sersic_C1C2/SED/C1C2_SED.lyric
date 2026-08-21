@@ -1,0 +1,258 @@
+# C1C2_SED
+R1) C1C2_SED
+R2) [149.74276239,1.6555373]
+R3) 6.83
+
+Ia1) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F560W_cut.fits,0]
+Ia2) miri_f560w
+Ia3) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F560W_cut.fits,2]
+Ia4) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/psf/cos87259_F560W_psf.fits,0]
+Ia5) 1
+Ia6) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F560W_cut.fits,1]
+Ia7) MJy/sr
+Ia8) 2.0
+Ia9) 1.251856e+21
+Ia10) 0
+Ia11) uniform
+Ia12) [[0,-0.5,0.5,0.1,0]]
+Ia13) 0
+Ia14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ia15) 1
+
+Ib1) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F770W_cut.fits,0]
+Ib2) miri_f770w
+Ib3) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F770W_cut.fits,2]
+Ib4) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/psf/cos87259_F770W_psf.fits,0]
+Ib5) 1
+Ib6) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F770W_cut.fits,1]
+Ib7) MJy/sr
+Ib8) 2.0
+Ib9) 2.313332e+21
+Ib10) 0
+Ib11) uniform
+Ib12) [[0,-0.5,0.5,0.1,0]]
+Ib13) 0
+Ib14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ib15) 1
+
+Ic1) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1000W_cut.fits,0]
+Ic2) miri_f1000w
+Ic3) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1000W_cut.fits,2]
+Ic4) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/psf/cos87259_F1000W_psf.fits,0]
+Ic5) 1
+Ic6) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1000W_cut.fits,1]
+Ic7) MJy/sr
+Ic8) 2.0
+Ic9) 3.912241e+21
+Ic10) 0
+Ic11) uniform
+Ic12) [[0,-0.5,0.5,0.1,0]]
+Ic13) 0
+Ic14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ic15) 1
+
+Id1) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1130W_cut.fits,0]
+Id2) miri_f1130w
+Id3) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1130W_cut.fits,2]
+Id4) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/psf/cos87259_F1130W_psf.fits,0]
+Id5) 1
+Id6) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1130W_cut.fits,1]
+Id7) MJy/sr
+Id8) 2.0
+Id9) 5.041238e+21
+Id10) 0
+Id11) uniform
+Id12) [[0,-0.5,0.5,0.1,0]]
+Id13) 0
+Id14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Id15) 1
+
+Ie1) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1280W_cut.fits,0]
+Ie2) miri_f1280w
+Ie3) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1280W_cut.fits,2]
+Ie4) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/psf/cos87259_F1280W_psf.fits,0]
+Ie5) 1
+Ie6) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1280W_cut.fits,1]
+Ie7) MJy/sr
+Ie8) 2.0
+Ie9) 6.490452e+21
+Ie10) 0
+Ie11) uniform
+Ie12) [[0,-0.5,0.5,0.1,0]]
+Ie13) 0
+Ie14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ie15) 1
+
+If1) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1500W_cut.fits,0]
+If2) miri_f1500w
+If3) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1500W_cut.fits,2]
+If4) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/psf/cos87259_F1500W_psf.fits,0]
+If5) 1
+If6) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1500W_cut.fits,1]
+If7) MJy/sr
+If8) 2.0
+If9) 8.959912e+21
+If10) 0
+If11) uniform
+If12) [[0,-0.5,0.5,0.1,0]]
+If13) 0
+If14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+If15) 1
+
+Ig1) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1800W_cut.fits,0]
+Ig2) miri_f1800w
+Ig3) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1800W_cut.fits,2]
+Ig4) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/psf/cos87259_F1800W_psf.fits,0]
+Ig5) 1
+Ig6) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F1800W_cut.fits,1]
+Ig7) MJy/sr
+Ig8) 2.0
+Ig9) 1.276140e+22
+Ig10) 0
+Ig11) uniform
+Ig12) [[0,-0.5,0.5,0.1,0]]
+Ig13) 0
+Ig14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ig15) 1
+
+Ih1) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F2100W_cut.fits,0]
+Ih2) miri_f2100w
+Ih3) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F2100W_cut.fits,2]
+Ih4) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/psf/cos87259_F2100W_psf.fits,0]
+Ih5) 1
+Ih6) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F2100W_cut.fits,1]
+Ih7) MJy/sr
+Ih8) 2.0
+Ih9) 1.712489e+22
+Ih10) 0
+Ih11) uniform
+Ih12) [[0,-0.5,0.5,0.1,0]]
+Ih13) 0
+Ih14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ih15) 1
+
+Ii1) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F2550W_cut.fits,0]
+Ii2) miri_f2550w
+Ii3) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F2550W_cut.fits,2]
+Ii4) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/psf/cos87259_F2550W_psf.fits,0]
+Ii5) 1
+Ii6) [/mnt/d/Fudan_University/Research/JWST/GalfitS/MIRI_cutout_v3/images/cos87259_F2550W_cut.fits,1]
+Ii7) MJy/sr
+Ii8) 2.0
+Ii9) 2.536078e+22
+Ii10) 0
+Ii11) uniform
+Ii12) [[0,-0.5,0.5,0.1,0]]
+Ii13) 0
+Ii14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ii15) 1
+
+Ij1) [/mnt/d/Fudan_University/Research/JWST/GalfitS/NIRCam_cutout/images/cos87259_F115W_cut.fits,0]
+Ij2) nircam_f115w
+Ij3) [/mnt/d/Fudan_University/Research/JWST/GalfitS/NIRCam_cutout/images/cos87259_F115W_cut.fits,2]
+Ij4) [/mnt/d/Fudan_University/Research/JWST/GalfitS/NIRCam_cutout/psf/cos87259_F115W_psf.fits,0]
+Ij5) 1
+Ij6) [/mnt/d/Fudan_University/Research/JWST/GalfitS/NIRCam_cutout/images/cos87259_F115W_cut.fits,1]
+Ij7) MJy/sr
+Ij8) 2.0
+Ij9) 2.100850e+20
+Ij10) 0
+Ij11) uniform
+Ij12) [[0,-0.5,0.5,0.1,0]]
+Ij13) 0
+Ij14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ij15) 1
+
+Ik1) [/mnt/d/Fudan_University/Research/JWST/GalfitS/NIRCam_cutout/images/cos87259_F200W_cut.fits,0]
+Ik2) nircam_f200w
+Ik3) [/mnt/d/Fudan_University/Research/JWST/GalfitS/NIRCam_cutout/images/cos87259_F200W_cut.fits,2]
+Ik4) [/mnt/d/Fudan_University/Research/JWST/GalfitS/NIRCam_cutout/psf/cos87259_F200W_psf.fits,0]
+Ik5) 1
+Ik6) [/mnt/d/Fudan_University/Research/JWST/GalfitS/NIRCam_cutout/images/cos87259_F200W_cut.fits,1]
+Ik7) MJy/sr
+Ik8) 2.0
+Ik9) 6.235954e+20
+Ik10) 0
+Ik11) uniform
+Ik12) [[0,-0.5,0.5,0.1,0]]
+Ik13) 0
+Ik14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ik15) 1
+
+Il1) [/mnt/d/Fudan_University/Research/JWST/GalfitS/NIRCam_cutout/images/cos87259_F410M_cut.fits,0]
+Il2) nircam_f410m
+Il3) [/mnt/d/Fudan_University/Research/JWST/GalfitS/NIRCam_cutout/images/cos87259_F410M_cut.fits,2]
+Il4) [/mnt/d/Fudan_University/Research/JWST/GalfitS/NIRCam_cutout/psf/cos87259_F410M_psf.fits,0]
+Il5) 1
+Il6) [/mnt/d/Fudan_University/Research/JWST/GalfitS/NIRCam_cutout/images/cos87259_F410M_cut.fits,1]
+Il7) MJy/sr
+Il8) 2.0
+Il9) 2.627748e+21
+Il10) 0
+Il11) uniform
+Il12) [[0,-0.5,0.5,0.1,0]]
+Il13) 0
+Il14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Il15) 1
+
+Aa1) jwst_miri
+Aa2) ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
+Aa3) 1
+Aa4) 0
+Aa5) []
+Aa6) []
+Aa7) []
+
+Ab1) jwst_nircam
+Ab2) ['j', 'k', 'l']
+Ab3) 1
+Ab4) 0
+Ab5) []
+Ab6) []
+Ab7) []
+
+Pa1) bulge
+Pa2) sersic
+Pa3) [0.124, -1.5, 1.5, 0.01, 0]
+Pa4) [0.139, -1.5, 1.5, 0.01, 0]
+Pa5) [0.15, 0.02, 1.5, 0.01, 1]
+Pa6) [2.0, 0.3, 8.0, 0.1, 1]
+Pa7) [0, -90, 90, 1, 1]
+Pa8) [0.6, 0.1, 1.0, 0.01, 1]
+Pa9)  [[-2,-8,0,0.1,1]]
+Pa10) [[0.5,0.01,10,0.01,1]]
+Pa11) [[0.02,0.0001,0.04,0.001,1]]
+Pa12) [[0.3,0,5.1,0.1,1]]
+Pa13) [100,40,200,1,0]
+Pa14) [10.0,6.5,12,0.1,1]
+Pa15) burst
+Pa16) [-2,-4,-2,0.1,0]
+Pa26) [3,0,5,0.1,0]
+Pa27) 0
+
+Pb1) disk
+Pb2) sersic
+Pb3) [-0.116, -1.5, 1.5, 0.01, 0]
+Pb4) [0.169, -1.5, 1.5, 0.01, 0]
+Pb5) [0.15, 0.02, 1.5, 0.01, 1]
+Pb6) [2.0, 0.3, 8.0, 0.1, 1]
+Pb7) [0, -90, 90, 1, 1]
+Pb8) [0.6, 0.1, 1.0, 0.01, 1]
+Pb9)  [[-2,-8,0,0.1,1]]
+Pb10) [[0.5,0.01,10,0.01,1]]
+Pb11) [[0.02,0.0001,0.04,0.001,1]]
+Pb12) [[0.3,0,5.1,0.1,1]]
+Pb13) [100,40,200,1,0]
+Pb14) [10.0,6.5,12,0.1,1]
+Pb15) burst
+Pb16) [-2,-4,-2,0.1,0]
+Pb26) [3,0,5,0.1,0]
+Pb27) 0
+
+Ga1) host_galaxy
+Ga2) ['a', 'b']
+Ga3) [6.83, 5.0, 8.0, 0.01, 0]
+Ga4) 0.0217
+Ga5) [1.,0.5,2,0.05,0]
+Ga6) []
+Ga7) 1

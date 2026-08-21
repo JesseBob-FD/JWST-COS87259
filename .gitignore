@@ -1,0 +1,76 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local editor and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+._*
+
+# Raw and large astronomy data
+/COS87259_JWST.tar.gz
+/MIRI/
+/NIRCam/
+/NIRSpec_IFU/
+/postage_stamp/
+/Papers/
+*.fits
+*.fit
+*.fits.gz
+*.fz
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.parquet
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+
+# Binary office/reference documents (Markdown sources remain tracked)
+*.pdf
+*.pptx
+*.docx
+
+# Third-party source trees are recorded by URL, commit, and local patches
+/GalfitS/astroskills/
+/GalfitS/GalfitS/
+/GalfitS/libprofit/
+/GalfitS_test/astroskills/
+/GalfitS_test/GalfitS/
+/GalfitS_test/libprofit/
+
+# Large GalfitS input/template data
+/GalfitS/data/
+/GalfitS/MIRI/
+/GalfitS/NIRCam/
+/GalfitS_test/data/
+
+# Compiled, generated, and temporary files
+tmp/
+*.o
+*.obj
+*.d
+*.so
+*.dll
+*.exe
+*.log
+*.doctree
+_build/
+build/
+dist/
+*.egg-info/
+

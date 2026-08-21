@@ -1,0 +1,117 @@
+# target: COS87259_R004_noSED
+# config file: MIRI_NIRCam_result/run007/COS87259_R004_noSED.lyric
+# fitting mode: images - photometry
+# fiting method: optimizer
+# chisq: 50611.3671875
+# reduced chisq: 0.5803856253623962
+# BIC: 50952.6484375
+# fitting time: 0.3594684600830078 mins
+############# data summary ############## 
+# image atals: jwst_miri
+#    image number: 0  band: miri_f560w  chisq: [2098.8926]  dof: [4160.]  reduced chisq: [0.50454146]
+#    image number: 1  band: miri_f770w  chisq: [2026.7115]  dof: [4155.]  reduced chisq: [0.48777655]
+#    image number: 2  band: miri_f1000w  chisq: [1910.4271]  dof: [4156.]  reduced chisq: [0.45967928]
+#    image number: 3  band: miri_f1130w  chisq: [1801.0292]  dof: [4160.]  reduced chisq: [0.4329397]
+#    image number: 4  band: miri_f1280w  chisq: [1908.2048]  dof: [4158.]  reduced chisq: [0.45892373]
+#    image number: 5  band: miri_f1500w  chisq: [1748.2719]  dof: [4149.]  reduced chisq: [0.42137185]
+#    image number: 6  band: miri_f1800w  chisq: [2328.0825]  dof: [4149.]  reduced chisq: [0.56111896]
+#    image number: 7  band: miri_f2100w  chisq: [2199.0334]  dof: [4147.]  reduced chisq: [0.53027093]
+#    image number: 8  band: miri_f2550w  chisq: [4155.006]  dof: [4160.]  reduced chisq: [0.9987995]
+# image atals: jwst_nircam
+#    image number: 0  band: nircam_f115w  chisq: [9268.851]  dof: [16867.]  reduced chisq: [0.54952574]
+#    image number: 1  band: nircam_f200w  chisq: [10420.334]  dof: [16658.]  reduced chisq: [0.6255453]
+#    image number: 2  band: nircam_f410m  chisq: [10746.523]  dof: [16314.]  reduced chisq: [0.65873015]
+############ fitting summary ############ 
+# num_steps: 3000  learning_rate: 0.001 calculate_hessian: False 
+# free parameters:
+pname    best_value
+sky_miri_f560w    0.0034
+sky_miri_f770w    0.0041
+sky_miri_f1000w    0.0079
+sky_miri_f1130w    0.0041
+sky_miri_f1280w    0.0011
+sky_miri_f1500w    0.0048
+sky_miri_f1800w    -0.0054
+sky_miri_f2100w    -0.0097
+sky_miri_f2550w    0.0791
+sky_nircam_f115w    0.0008
+sky_nircam_f200w    0.0027
+sky_nircam_f410m    0.0106
+logNorm_host_miri_f560w    -8.7913
+logNorm_host_miri_f770w    -8.5171
+logNorm_host_miri_f1000w    -8.2793
+logNorm_host_miri_f1130w    -8.1995
+logNorm_host_miri_f1280w    -7.9635
+logNorm_host_miri_f1500w    -7.6543
+logNorm_host_miri_f1800w    -7.3230
+logNorm_host_miri_f2100w    -7.0349
+logNorm_host_miri_f2550w    -6.7372
+logNorm_host_nircam_f115w    -9.5309
+logNorm_host_nircam_f200w    -8.7070
+logNorm_host_nircam_f410m    -7.7985
+host_xcen    0.0487
+host_ycen    0.1383
+host_Re    0.1993
+host_n    2.6960
+host_ang    47.7577
+host_axrat    0.7027
+# fixed parameters:
+# pname    fixed_value
+csx_miri_f560w    0.0000
+csy_miri_f560w    0.0000
+csx_miri_f770w    0.0000
+csy_miri_f770w    0.0000
+csx_miri_f1000w    0.0000
+csy_miri_f1000w    0.0000
+csx_miri_f1130w    0.0000
+csy_miri_f1130w    0.0000
+csx_miri_f1280w    0.0000
+csy_miri_f1280w    0.0000
+csx_miri_f1500w    0.0000
+csy_miri_f1500w    0.0000
+csx_miri_f1800w    0.0000
+csy_miri_f1800w    0.0000
+csx_miri_f2100w    0.0000
+csy_miri_f2100w    0.0000
+csx_miri_f2550w    0.0000
+csy_miri_f2550w    0.0000
+csx_nircam_f115w    0.0000
+csy_nircam_f115w    0.0000
+csx_nircam_f200w    0.0000
+csy_nircam_f200w    0.0000
+csx_nircam_f410m    0.0000
+csy_nircam_f410m    0.0000
+host_f_cont_value    -2.0000
+host_age_value    0.5000
+host_Z_value    0.0200
+host_Av_value    0.3000
+host_sigma    100.0000
+logM_host    10.0000
+logU_host    -2.0000
+AVbump_host    3.0000
+logMdust_host    8.1400
+Umin_host    1.0000
+qPAH_host    1.0000
+alphad_host    1.0000
+gammad_host    0.1000
+Mag_host_miri_f560w    -3.0217
+Mag_host_miri_f770w    -3.7074
+Mag_host_miri_f1000w    -4.3018
+Mag_host_miri_f1130w    -4.5011
+Mag_host_miri_f1280w    -5.0911
+Mag_host_miri_f1500w    -5.8641
+Mag_host_miri_f1800w    -6.6926
+Mag_host_miri_f2100w    -7.4128
+Mag_host_miri_f2550w    -8.1569
+Mag_host_nircam_f115w    -1.1728
+Mag_host_nircam_f200w    -3.2326
+Mag_host_nircam_f410m    -5.5038
+z_host_galaxy    6.8300
+scale_host_galaxy    5.4256
+r0_host_galaxy    0.0000
+rt_host_galaxy    3.0000
+v0_host_galaxy    150.0000
+vc_host_galaxy    0.0000
+LineSigma_host_galaxy    50.0000
+logsfr_host    0.0000
+######################################### 

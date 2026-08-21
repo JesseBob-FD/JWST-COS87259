@@ -1,0 +1,202 @@
+# COS87259_v2.lyric - JWST MIRI 6-band AGN+Host Decomposition
+# Target: COS-87259 at z ~ 6.83
+# Model: Host galaxy (Sersic) + AGN (power-law continuum)
+# Bands: F770W, F1000W, F1280W, F1500W, F1800W, F2100W
+
+# ============================================================
+# Region information
+# ============================================================
+R1) COS87259_v2
+R2) [149.7406185,1.6496037]
+R3) 6.83
+
+# ============================================================
+# Image A - F770W
+# ============================================================
+Ia1) [cos87259_F770W_cut.fits,0]
+Ia2) miri_f770w
+Ia3) [cos87259_F770W_cut.fits,2]
+Ia4) [cos87259_F770W_psf.fits,0]
+Ia5) 1
+Ia6) [cos87259_F770W_cut.fits,1]
+Ia7) MJy/sr
+Ia8) 5.0
+Ia9) 2.3141492028087479e+21
+Ia10) 0
+Ia11) uniform
+Ia12) [[0,-0.5,0.5,0.1,0]]
+Ia13) 0
+Ia14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ia15) 1
+
+# Image B - F1000W
+Ib1) [cos87259_F1000W_cut.fits,0]
+Ib2) miri_f1000w
+Ib3) [cos87259_F1000W_cut.fits,2]
+Ib4) [cos87259_F1000W_psf.fits,0]
+Ib5) 1
+Ib6) [cos87259_F1000W_cut.fits,1]
+Ib7) MJy/sr
+Ib8) 5.0
+Ib9) 3.9005e+21
+Ib10) 0
+Ib11) uniform
+Ib12) [[0,-0.5,0.5,0.1,0]]
+Ib13) 0
+Ib14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ib15) 1
+
+# Image C - F1280W
+Ic1) [cos87259_F1280W_cut.fits,0]
+Ic2) miri_f1280w
+Ic3) [cos87259_F1280W_cut.fits,2]
+Ic4) [cos87259_F1280W_psf.fits,0]
+Ic5) 1
+Ic6) [cos87259_F1280W_cut.fits,1]
+Ic7) MJy/sr
+Ic8) 5.0
+Ic9) 6.4690e+21
+Ic10) 0
+Ic11) uniform
+Ic12) [[0,-0.5,0.5,0.1,0]]
+Ic13) 0
+Ic14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ic15) 1
+
+# Image D - F1500W
+Id1) [cos87259_F1500W_cut.fits,0]
+Id2) miri_f1500w
+Id3) [cos87259_F1500W_cut.fits,2]
+Id4) [cos87259_F1500W_psf.fits,0]
+Id5) 1
+Id6) [cos87259_F1500W_cut.fits,1]
+Id7) MJy/sr
+Id8) 5.0
+Id9) 8.9268e+21
+Id10) 0
+Id11) uniform
+Id12) [[0,-0.5,0.5,0.1,0]]
+Id13) 0
+Id14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Id15) 1
+
+# Image E - F1800W
+Ie1) [cos87259_F1800W_cut.fits,0]
+Ie2) miri_f1800w
+Ie3) [cos87259_F1800W_cut.fits,2]
+Ie4) [cos87259_F1800W_psf.fits,0]
+Ie5) 1
+Ie6) [cos87259_F1800W_cut.fits,1]
+Ie7) MJy/sr
+Ie8) 5.0
+Ie9) 1.2729e+22
+Ie10) 0
+Ie11) uniform
+Ie12) [[0,-0.5,0.5,0.1,0]]
+Ie13) 0
+Ie14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+Ie15) 1
+
+# Image F - F2100W
+If1) [cos87259_F2100W_cut.fits,0]
+If2) miri_f2100w
+If3) [cos87259_F2100W_cut.fits,2]
+If4) [cos87259_F2100W_psf.fits,0]
+If5) 1
+If6) [cos87259_F2100W_cut.fits,1]
+If7) MJy/sr
+If8) 5.0
+If9) 1.7047e+22
+If10) 0
+If11) uniform
+If12) [[0,-0.5,0.5,0.1,0]]
+If13) 0
+If14) [[0,-2,2,0.1,0],[0,-2,2,0.1,0]]
+If15) 1
+
+# ============================================================
+# Image Atlas
+# ============================================================
+Aa1) jwst_miri
+Aa2) ['a','b','c','d','e','f']
+Aa3) 1
+Aa4) 0
+Aa5) []
+Aa6) []
+Aa7) []
+
+# ============================================================
+# Model: Host Galaxy (Sersic) - faint, fixed
+# ============================================================
+# Since the stellar SED produces negligible MIRI flux at z=6.83,
+# we use the host as a spatially extended component with very
+# small flux contribution. The AGN provides the bulk of the flux.
+
+Pa1) host
+Pa2) sersic
+Pa3) [0, -1.5, 1.5, 0.01, 1]
+Pa4) [0, -1.5, 1.5, 0.01, 1]
+Pa5) [0.20, 0.02, 1.5, 0.01, 1]
+Pa6) [2.0, 0.3, 8.0, 0.1, 1]
+Pa7) [0, -90, 90, 1, 1]
+Pa8) [0.6, 0.1, 1.0, 0.01, 1]
+Pa9)  [[-2,-8,0,0.1,0]]
+Pa10) [[0.5,0.01,0.85,0.01,0]]
+Pa11) [[0.005,0.0001,0.04,0.001,0]]
+Pa12) [[0.3,0,5.1,0.1,0]]
+Pa13) [50,10,200,1,0]
+Pa14) [10.0,6.0,12.0,0.1,1]
+Pa15) burst
+Pa16) [-2,-4,-2,0.1,0]
+Pa26) [3,0,5,0.1,0]
+Pa27) 0
+Pa28) [8.14,4.5,10,0.1,0]
+Pa29) [1.0, 0.1, 50, 0.1, 0]
+Pa30) [1.0, 0.47, 7.32, 0.1, 0]
+Pa31) [1.0, 1.0, 3.0, 0.1, 0]
+Pa32) [0.1, 0, 1.0, 0.1, 0]
+
+Ga1) host_galaxy
+Ga2) ['a']
+Ga3) [6.83, 5.0, 8.0, 0.01, 0]
+Ga4) 0.0217
+Ga5) [1.,0.5,2,0.05,0]
+Ga6) []
+Ga7) 1
+
+# ============================================================
+# Model: AGN Nucleus (power-law continuum)
+# ============================================================
+# At z=6.83, MIRI probes rest-frame 0.72-3.26 um.
+# AGN power-law: F_nu ∝ ν^(-alpha), where alpha ~ 0.5-1.5 for typical AGN.
+# The rising SED (1.8 uJy at F560W → 75 uJy at F2550W) is characteristic
+# of AGN-dominated mid-IR emission.
+# Na18: continuum model - using power law (0) with free slope
+
+Na1) AGN
+Na2) [6.83, 5.0, 8.0, 0.01, 0]
+Na3) 0.0217
+Na4) [0, -1.0, 1.0, 0.01, 1]
+Na5) [0, -1.0, 1.0, 0.01, 1]
+Na6) [8, 5, 10, 0.1, 0]
+Na7) [-1, -4, 2, 0.1, 0]
+Na8) [0, 0, 0.99, 0.01, 0]
+Na9) [0.5, 0, 4, 0.25, 0]
+Na10) [44, 41, 48, 0.1, 1]
+Na11) [[1.0, 0, 4, 0.1, 1], [1.0, 0, 4, 0.1, 0]]
+Na12) []
+Na13) []
+Na14) 0
+Na15) 0
+Na16) 0
+Na17) 0
+Na18) 0
+Na19) [1, 0.5, 2, 0.05, 0]
+Na20) 0
+Na21) [41, 39, 44, 0.1, 0]
+Na22) [-0.5,-2.5,-0.25,0.05,0]
+Na23) [0.5,0.25,1.5,0.05,0]
+Na24) [7,5,10,0.5,0]
+Na25) [15,0,90,5,0]
+Na26) [1.,0.2,5,0.1,1]
+Na27) [[40,38,42,0.1,0],[40,38,42,0.1,0]]
